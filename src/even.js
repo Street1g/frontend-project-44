@@ -7,8 +7,6 @@ const greeting = () => {
   return playerName;
 };
 
-console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
 const randomNumber = () => {
   const number = Math.floor(Math.random() * 100) + 1;
   return number;
@@ -16,6 +14,7 @@ const randomNumber = () => {
 
 const checkEven = () => {
   const playerName = greeting();
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
     const number = randomNumber();
     const correctAnswer = (number % 2 === 0 ? 'yes' : 'no');
@@ -30,4 +29,4 @@ const checkEven = () => {
   console.log(`Congratulations, ${playerName}!`);
 };
 
-export default checkEven();
+export default checkEven;
