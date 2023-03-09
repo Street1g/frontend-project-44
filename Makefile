@@ -12,3 +12,6 @@ lint: #запуск линт
 
 brain-even: #запуск игры с проверкой на четность
 	node bin/brain-even.js
+
+brain-calc: #запуск игры калькулятор
+	node bin/brain-calc.js

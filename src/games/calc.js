@@ -2,15 +2,16 @@ import brainGame from '../index.js';
 
 const elements = ['+', '-', '*'];
 
+const rules = 'What is the result of the expression?';
+
 const randomNumber = () => {
-  const number = Math.floor(Math.random() * 100) + 1;
+  const number = Math.floor(Math.random() * 10) + 1;
   return number;
 };
 
-console.log('What is the result of the expression?');
-
 const arrayRandomElement = (arrElements) => {
-  const randomElement = Math.floor(Math.random() * arrElements.length);
+  const randomIndex = Math.floor(Math.random() * arrElements.length);
+  const randomElement = arrElements[randomIndex];
   return randomElement;
 };
 
@@ -23,7 +24,7 @@ const calculate = (num1, num2, element) => {
   }
 };
 
-const gameCalc = () => {
+const makeRound = () => {
   const randomElement = arrayRandomElement(elements);
   const num1 = randomNumber();
   const num2 = randomNumber();
@@ -32,4 +33,6 @@ const gameCalc = () => {
   return [question, correctAnswer];
 };
 
-export default brainGame();
+export default () => {
+  brainGame(rules, makeRound);
+};
