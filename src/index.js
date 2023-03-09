@@ -15,7 +15,7 @@ export default (rules, makeRound) => {
     if (playerAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`${playerAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}\nLet's try again, ${playerName}!`);
+      console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'\nLet's try again, ${playerName}!`);
       return;
     }
   }
