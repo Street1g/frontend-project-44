@@ -22,3 +22,7 @@ brain-gcd: #запуск игры НОД
 brain-progression: #запуск игры прогрессия
 	node bin/brain-progression.js
 
+brain-prime: #запуск игры "простое ли число"
+	node bin/brain-prime.js
+
+	
