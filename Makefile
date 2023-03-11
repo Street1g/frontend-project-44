@@ -19,4 +19,6 @@ brain-calc: #запуск игры калькулятор
 brain-gcd: #запуск игры НОД
 	node bin/brain-gcd.js
 
-	
+brain-progression: #запуск игры прогрессия
+	node bin/brain-progression.js
+
