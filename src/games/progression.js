@@ -24,7 +24,7 @@ const makeRound = () => {
   const randomIndex = randomNumber(0, 10);
   const correctAnswer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
-  const question = progression.join('');
+  const question = progression.join(' ');
 
   return [question, correctAnswer];
 };
