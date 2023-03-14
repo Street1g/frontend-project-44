@@ -1,11 +1,7 @@
 import brainGame from '../index.js';
+import getRandomInRange from '../utils.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
-
-const randomNumber = (min, max) => {
-  const number = Math.floor(Math.random() * (max - min) + min);
-  return number;
-};
 
 const greatestCommonDivisor = (num1, num2) => {
   if (num1 === 0 || num2 === 0) {
@@ -18,8 +14,8 @@ const greatestCommonDivisor = (num1, num2) => {
 };
 
 const makeRound = () => {
-  const num1 = randomNumber(0, 50);
-  const num2 = randomNumber(0, 50);
+  const num1 = getRandomInRange(0, 50);
+  const num2 = getRandomInRange(0, 50);
   const question = `${num1} ${num2}`;
   const correctAnswer = String(greatestCommonDivisor(num1, num2));
 

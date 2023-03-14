@@ -1,15 +1,13 @@
 import brainGame from '../index.js';
+import getRandomInRange from '../utils.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const randomNumber = () => {
-  const number = Math.floor(Math.random() * 100) + 1;
-  return number;
-};
+const isEven = (num) => num % 2 === 0;
 
 const makeRound = () => {
-  const question = randomNumber();
-  const correctAnswer = (question % 2 === 0 ? 'yes' : 'no');
+  const question = getRandomInRange(0, 100);
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };
