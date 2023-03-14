@@ -18,6 +18,7 @@
 2. "$ make install"
 3. "$ npm link"
 
+
 ### The game "Check number even" 
 
 The point of the game is this: the user is shown a random number. The user has to answer 'yes' if the number is even, or 'no' if it is odd.
