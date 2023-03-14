@@ -3,69 +3,71 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d89938ad7010c4e9c108/maintainability)](https://codeclimate.com/github/Street1g/frontend-project-44/maintainability)
 
-### Проект "Игры разума"
+### Project "Brain games"
 
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+"Brain-games is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is completed. Incorrect answers end the game and prompt you to go through it all over again. Games:
 
-- Калькулятор. Арифметические выражения, которые необходимо вычислить.
-- Прогрессия. Поиск пропущенных чисел в последовательности чисел.
-- Определение четного числа.
-- Определение наибольшего общего делителя.
-- Определение простого числа.
+- Calculator. Arithmetic expressions to be calculated.
+- Progression. Finding missing numbers in a sequence of numbers.
+- Finding an even number.
+- Determining the greatest common divisor.
+- Finding a prime number.
 
-### Установка:
-"$ npm link"
+### Install:
+1. "$ git clone https://github.com/Street1g/frontend-project-44"
+2. "$ make install"
+3. "$ npm link"
 
-### Игра "Проверка на чётность" 
+### The game "Check number even" 
 
-Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить 'yes', если число чётное, или 'no' — если нечётное.
+The point of the game is this: the user is shown a random number. The user has to answer 'yes' if the number is even, or 'no' if it is odd.
 
-### Запуск игры
+### Running the game
 "$ brain-even"
 
-### Пример игры:
+### Example of a game:
 [![asciicast](https://asciinema.org/a/zu9djWfmkIDeDIUfeiSV1xoAW.svg)](https://asciinema.org/a/zu9djWfmkIDeDIUfeiSV1xoAW)
 
 
-### Игра "Калькулятор"
+### The game "Calculator"
 
-Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
+The point of the game is this: the user is shown a random mathematical expression, e.g. 35 + 16, which must be calculated and the correct answer written down.
 
-### Запуск игры
+### Running the game
 "$ brain-calc"
 
-### Пример игры:
+### Example of a game:
 [![asciicast](https://asciinema.org/a/XJrghsxmjfPyQutiFjCsKSleE.svg)](https://asciinema.org/a/XJrghsxmjfPyQutiFjCsKSleE)
 
 
-### Игра "НОД"
+### The game "GCD"
 
-Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+The point of the game is this: The user is shown two random numbers, e.g. 25 50. The user must calculate and enter the greatest common divisor of these numbers.
 
-### Запуск игры
+### Running the game
 "$ brain-gcd"
 
-### Пример игры:
+### Example of a game:
 [![asciicast](https://asciinema.org/a/axRJQA3OLHPbZvgixgy2jbjXr.svg)](https://asciinema.org/a/axRJQA3OLHPbZvgixgy2jbjXr)
 
 
-### Игра "Арифметическая прогрессия"
+### The game "Arithmetic progression"
 
-Суть игры в следующем: игроку показывается ряд чисел, образующий арифметическую прогрессию, игрок должен определить число, находящееся за точками.
+The point of the game is this: the player is shown a series of numbers forming an arithmetic progression, the player must identify the number behind the dots.
 
-### Запуск игры
+### Running the game
 "$ brain-progression"
 
-### Пример игры:
+### Example of a game:
 [![asciicast](https://asciinema.org/a/J0kkwXbLp6Y9L6fBgBxsRptt8.svg)](https://asciinema.org/a/J0kkwXbLp6Y9L6fBgBxsRptt8)
 
 
-### Игра "Простое ли число?"
+### The game "Is it a prime number?"
 
-Суть игры в следующем: дано число, нужно определить является ли число простым.
+The point of the game is this: a number is given, you have to find out if it is prime.
 
-### Запуск игры
+### Running the game
 "$ brain-prime"
 
-### Пример игры:
+### Example of a game:
 [![asciicast](https://asciinema.org/a/h8M86Do8qTXnvvLEjcRCo3peN.svg)](https://asciinema.org/a/h8M86Do8qTXnvvLEjcRCo3peN)
