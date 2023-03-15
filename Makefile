@@ -1,28 +1,28 @@
-install: #установка окружения
+install: 
 	npm ci
 
-brain-games: #запуск игры
+brain-games:
 	node bin/brain-games.js
 
-publish: #процесс публикации пакета
+publish:
 	npm publish --dry-run
 
-lint: #запуск линт
+lint:
 	npx eslint .
 
-brain-even: #запуск игры с проверкой на четность
+brain-even:
 	node bin/brain-even.js
 
-brain-calc: #запуск игры калькулятор
+brain-calc:
 	node bin/brain-calc.js
 
-brain-gcd: #запуск игры НОД
+brain-gcd:
 	node bin/brain-gcd.js
 
-brain-progression: #запуск игры прогрессия
+brain-progression:
 	node bin/brain-progression.js
 
-brain-prime: #запуск игры "простое ли число"
+brain-prime:
 	node bin/brain-prime.js
 
 	
