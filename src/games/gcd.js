@@ -4,13 +4,10 @@ import getRandomInRange from '../utils.js';
 const rules = 'Find the greatest common divisor of given numbers.';
 
 const greatestCommonDivisor = (num1, num2) => {
-  if (num1 === 0 || num2 === 0) {
-    return num1 + num2;
+  if (num1 === 0) {
+    return num2;
   }
-  if (num1 > num2) {
-    return greatestCommonDivisor(num1 - num2, num2);
-  }
-  return greatestCommonDivisor(num1, num2 - num1);
+  return greatestCommonDivisor(num2 % num1, num1);
 };
 
 const makeRound = () => {
