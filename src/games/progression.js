@@ -13,7 +13,7 @@ const getProgression = (first, step, length) => {
 
 const makeRound = () => {
   const first = getRandomInRange(0, 100);
-  const step = getRandomInRange(0, 10);
+  const step = getRandomInRange(1, 9);
   const length = 10;
   const progression = getProgression(first, step, length);
   const correctAnswer = String(progression[step]);
